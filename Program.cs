@@ -14,10 +14,6 @@ namespace while_gece_gunduz
                 
                     Console.WriteLine("enter the time");
                     parseResult = int.TryParse(Console.ReadLine(), out int a);
-
-
-
-
                     if (parseResult == true && a <= 24)
                     {
                         //  int a = Convert.ToInt32(Console.ReadLine());//
